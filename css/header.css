@@ -1,50 +1,310 @@
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
+body {
+    margin-top: 10%;
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
 }
 
-nav li {
-    padding: 10px;
-    text-align: center;
-    width: 20%;
-    justify-content: center;
+.navbar-container {
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.71);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.71);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Ajusta el valor de la opacidad aquí */
+}
+
+
+.navbar {
+    max-width: 1560px;
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+}
+
+.navbar-left svg {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.navbar-left div {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-left div a {
+    text-decoration: none;
+    /* Elimina el subrayado */
+    color: inherit;
+    /* Hereda el color del texto */
+}
+
+
+.navbar-left div:hover,
+.find-a-store:hover {
+    color: rgb(202, 35, 35);
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar-left>*,
+.navbar-right>* {
+    margin: 10px;
+}
+
+.find-a-store {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.sign-in,
+.join-now {
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+}
+
+.join-now {
+    background-color: black;
+    color: white;
+}
+
+.join-now:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sign-in:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+
+/* Media queries para hacer el div responsive */
+@media screen and (max-width: 768px) {
+    .responsive-div {
+        /* Estilos para pantallas pequeñas */
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .responsive-div {
+        /* Estilos para pantallas medianas */
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .responsive-div {
+        /* Estilos para pantallas grandes */
+    }
+}
+
+h1 {
+    color: rgb(202, 35, 35);
+}
+
+/* Botón oscuro CS3 */
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.saludar {
+    display: flex;
     align-items: center;
 }
 
-.f-border {
-    border: 1px solid black;
+
+.saludar img {
+    width: 200px;
+    margin: 0 auto;
+    /* Centra la imagen horizontalmente */
 }
 
-.n-border {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+.saludar p {
+    font-weight: 400;
 }
 
-.nav-item1 {
-    flex-basis: auto;
-}
-
-.nav-item2 {
+.bocadillo {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 100px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 10%;
 }
 
-nav li a {
-    text-decoration: none;
+
+/* Galería de imagenes */
+.mySlides {
+    display: none;
+    /* Oculta todas las imágenes por defecto */
 }
 
-nav li a:hover {
-    color: #b8211e;
+/* Agrega estilos para el slider */
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
-nav li h3 {
-    margin-bottom: 10px;
+.slider img {
+    width: 100%;
+    height: auto;
 }
 
-h3,
-h4 {
-    margin: 0;
-    font-size: small;
-    font-weight: normal;
+/* Agrega estilos para los controles del slider si es necesario */
+.slider .prev,
+.slider .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.slider .prev {
+    left: 10px;
+}
+
+.slider .next {
+    right: 10px;
+}
+
+.section_slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+
+.c {
+    min-width: 700px;
+    width: 900px;
+    height: 700px;
+    padding: 10px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background: hsl(0 0% 90%);
+    box-sizing: border-box;
+}
+
+.ci {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    transform-origin: left 50%;
+
+    background: inherit;
+
+    z-index: var(--z);
+    transition: .3s ease-out;
+}
+
+.ci img {
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.ch {
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    transform: translateY(-900%);
+    font-size: 2rem;
+
+}
+
+input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    z-index: -10;
+}
+
+label {
+    width: 10%;
+    height: 10px;
+    margin-right: 4px;
+    border-radius: 20px;
+
+    background: hsla(0 0% 90% / .3);
+    cursor: pointer;
+
+    position: relative;
+    z-index: 10;
+}
+
+label:last-child {
+    margin-right: 0;
+}
+
+input:checked+label {
+    background: linear-gradient(to right,
+            hsla(var(--hue) 72% 42% / 1),
+            hsla(calc(var(--hue) + 15) 72% 42% / 1));
+}
+
+input:not(:checked)+label+.ci {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+input:checked+label+.ci~.ci {
+    transform: translateX(100%);
+}
+
+input:not(:checked)+label+.ci {
+    transition: 0;
+}
+
+.image_slider {
+    width: auto;
+    height: 700px;
+}
+
+section {
+    display: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article {
+    background-color: #EFEFEF;
+    border: black 1px solid;
+}
+
+article p {
+    text-align: center;
 }
