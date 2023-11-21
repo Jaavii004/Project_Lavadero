@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 body {
-    margin-top: 10%;
-    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
-   
+    margin-top: 10%;    
+    font-family: 'Open-sans', sans-serif;
+    background-color: #ffffff;
 }
 
 .navbar-container {
@@ -13,8 +15,6 @@ body {
     background-color: #ffffff;
     /* Ajusta el valor de la opacidad aquí */
 }
-
-
 
 .navbar {
     max-width: 1560px;
@@ -116,9 +116,13 @@ h1 {
 /* Botón oscuro CS3 */
 .dark-mode {
     background-color: black;
-    color: rgb(0, 0, 0);
-    text-decoration: black;
+    color: rgb(255, 255, 255);
+    .navbar-container {
+        background-color: black;
+    }
 }
+
+
 
 .saludar {
     display: flex;
