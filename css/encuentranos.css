@@ -1,0 +1,13 @@
+/* FILEPATH: /Users/escartii/Desktop/Proyecto_Lavadero/Project_Lavadero/css/encuentranos.css */
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mapa iframe {
+    width: 50%;
+    margin-left: 25%;
+}
