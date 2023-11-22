@@ -1,0 +1,28 @@
+footer {
+    margin-top: 60px;
+    padding: 50px 0px;
+    background-color: #fb5849;
+}
+
+footer .logo {
+    text-align: center;
+}
+
+footer .texto-izq{
+    text-align: left;
+    .textoD{
+        text-align: right;
+    }
+}
+footer .par{
+    text-align: center;
+    
+}
+footer .texto-der{
+    text-align: right;
+}
+
+
+
+
+
