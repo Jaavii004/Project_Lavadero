@@ -1,0 +1,11 @@
+img.servicios{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.contenedores {
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+  }
