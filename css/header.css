@@ -110,6 +110,11 @@ h1 {
         padding: 10px; /* Agrega un relleno para mejorar la legibilidad */
         border: 1px solid #242424 /* Agrega un borde para mayor claridad */
     }
+    a {
+        text-decoration: none; /* quita el subrayado */
+        color: white; /* cambia el color a negro, pero puedes ajustarlo según tus preferencias */
+    }
+      
 }
 
 
