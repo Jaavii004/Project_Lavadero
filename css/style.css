@@ -15,3 +15,11 @@ h1{
     padding: 10px; /* Agrega un relleno para mejorar la legibilidad */
     border: 1px solid #000000; /* Agrega un borde para mayor claridad */
 }
+
+encuentranos{
+    text-decoration: none;
+    /* Elimina el subrayado */
+    color: inherit;
+    /* Hereda el color del texto */
+    
+}
