@@ -2,9 +2,7 @@ h1{
     text-align: center;
 }
 
-p{
-
-
-
-
+.blockquote {
+    text-align: center;
+    color: rgb(202, 35, 35);
 }
