@@ -94,26 +94,6 @@ body {
     background-color: rgba(0, 0, 0, 0.06);
 }
 
-
-/* Media queries para hacer el div responsive */
-@media screen and (max-width: 768px) {
-    .responsive-div {
-        /* Estilos para pantallas pequeñas */
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .responsive-div {
-        /* Estilos para pantallas medianas */
-    }
-}
-
-@media screen and (min-width: 1025px) {
-    .responsive-div {
-        /* Estilos para pantallas grandes */
-    }
-}
-
 h1 {
     color: rgb(202, 35, 35);
 }
