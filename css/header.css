@@ -1,3 +1,8 @@
+.nav-link.active {
+  font-weight: bold;
+  color: rgb(202, 35, 35);
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body {
