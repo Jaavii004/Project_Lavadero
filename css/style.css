@@ -145,6 +145,14 @@ a.active {
           text-decoration: none; /* quita el subrayado */
           color: white; /* cambia el color a negro, pero puedes ajustarlo según tus preferencias */
       }
+
+      .tabla {
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 35%;
+    }
         
   }
   
@@ -376,4 +384,16 @@ a.active {
 .footer .Logo {
     align-items: flex-start;
     justify-content: flex-start;
+}
+
+.tabla {
+    border: 1px solid black;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 503px;
+}
+.tabla td {
+    padding: 4px;
 }
