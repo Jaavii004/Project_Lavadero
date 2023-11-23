@@ -16,10 +16,16 @@ h1{
     border: 1px solid #000000; /* Agrega un borde para mayor claridad */
 }
 
-encuentranos{
+.encuentranos{
     text-decoration: none;
     /* Elimina el subrayado */
     color: inherit;
     /* Hereda el color del texto */
     
 }
+
+a {
+    text-decoration: none; /* quita el subrayado */
+    color: black; /* cambia el color a negro, pero puedes ajustarlo según tus preferencias */
+  }
+  
