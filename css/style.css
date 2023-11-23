@@ -6,3 +6,12 @@ h1{
     text-align: center;
     color: rgb(202, 35, 35);
 }
+
+.texto {
+    
+    text-align: center;
+    margin: 10px auto; /* Establece márgenes superior e inferior de 20px y márgenes izquierdo y derecho automáticos */
+    max-width: 875px; /* Establece el ancho máximo del contenedor a 600px */
+    padding: 10px; /* Agrega un relleno para mejorar la legibilidad */
+    border: 1px solid #000000; /* Agrega un borde para mayor claridad */
+}
