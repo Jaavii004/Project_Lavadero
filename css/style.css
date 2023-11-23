@@ -8,7 +8,6 @@ h1 {
 }
 
 .texto {
-
     text-align: center;
     margin: 10px auto;
     /* Establece márgenes superior e inferior de 20px y márgenes izquierdo y derecho automáticos */
@@ -90,7 +89,6 @@ a.active:focus {
     /* Hereda el color del texto */
 }
 
-
 .navbar-left div:hover,
 .find-a-store:hover {
     color: rgb(202, 35, 35);
@@ -143,11 +141,9 @@ h1 {
 .dark-mode {
     background: #242424;
     color: rgb(255, 255, 255);
-
     .navbar-container {
         background-color: #242424
     }
-
     .texto {
         text-align: center;
         margin: 10px auto;
@@ -166,23 +162,12 @@ h1 {
         color: white;
         /* cambia el color a negro, pero puedes ajustarlo según tus preferencias */
     }
-
-    .tabla {
-        width: 500px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 35%;
-    }
-
 }
-
 
 .saludar {
     display: flex;
     align-items: center;
 }
-
 
 .saludar img {
     width: 200px;
@@ -206,7 +191,6 @@ h1 {
     margin-left: 35%;
     margin-top: 10%;
 }
-
 
 /* Galería de imagenes */
 .mySlides {
@@ -257,7 +241,6 @@ h1 {
     padding-bottom: 20px;
 
 }
-
 
 .c {
     min-width: 700px;
@@ -408,7 +391,7 @@ body {
 }
 
 .tabla {
-    border: 1px solid black;
+    border: 1px solid #242424;
     width: 900px;
     display: flex;
     justify-content: center;
