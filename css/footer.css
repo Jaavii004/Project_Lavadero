@@ -1,28 +1,19 @@
-footer {
-    margin-top: 60px;
-    padding: 50px 0px;
-    background-color: #fb5849;
+body {
+    margin: 0;
+    overflow-x: hidden;
 }
 
-footer .logo {
+.footer {
+    background: #000;
+    padding: 30px 0px;
     text-align: center;
 }
 
-footer .texto-izq{
-    text-align: left;
-    .textoD{
-        text-align: right;
-    }
-}
-footer .par{
-    text-align: center;
+.footer .row {
     
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: gray;
+    font-size: 0.8em;
 }
-footer .texto-der{
-    text-align: right;
-}
-
-
-
-
-
