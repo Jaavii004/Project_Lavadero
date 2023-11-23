@@ -17,3 +17,12 @@ body {
     color: gray;
     font-size: 0.8em;
 }
+
+.footer .social-icon {
+    margin: 10px;
+}
+
+.footer .Logo {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
