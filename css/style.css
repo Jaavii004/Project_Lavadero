@@ -422,3 +422,15 @@ body {
 .antes{
     margin-left: 10%;
 }
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mapa iframe {
+    width: 50%;
+    margin-left: 25%;
+}
