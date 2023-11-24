@@ -1,3 +1,14 @@
+a.active {
+    font-weight: bold;
+    color: red;
+  }
+  
+  body {
+      margin-top: 10%;    
+      font-family: 'Open-sans', sans-serif;
+      background-color: #ffffff;
+  }
+
 h1 {
     text-align: center;
 }
@@ -134,6 +145,7 @@ a.active:focus {
 }
 
 h1 {
+    margin-top: 6%;
     color: rgb(202, 35, 35);
 }
 
