@@ -402,3 +402,11 @@ body {
 .tabla td {
     padding: 4px;
 }
+
+.estrellas {
+    margin-left: 30%;
+}
+
+.antes{
+    margin-left: 10%;
+}
