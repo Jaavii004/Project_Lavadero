@@ -1,4 +1,4 @@
-h1{
+h1 {
     text-align: center;
 }
 
@@ -8,336 +8,348 @@ h1{
 }
 
 .texto {
-    
     text-align: center;
-    margin: 10px auto; /* Establece márgenes superior e inferior de 20px y márgenes izquierdo y derecho automáticos */
-    max-width: 875px; /* Establece el ancho máximo del contenedor a 600px */
-    padding: 10px; /* Agrega un relleno para mejorar la legibilidad */
-    border: 1px solid #000000; /* Agrega un borde para mayor claridad */
+    margin: 10px auto;
+    /* Establece márgenes superior e inferior de 20px y márgenes izquierdo y derecho automáticos */
+    max-width: 875px;
+    /* Establece el ancho máximo del contenedor a 600px */
+    padding: 10px;
+    /* Agrega un relleno para mejorar la legibilidad */
+    border: 1px solid #000000;
+    /* Agrega un borde para mayor claridad */
 }
 
-.encuentranos{
+.encuentranos {
     text-decoration: none;
     /* Elimina el subrayado */
     color: inherit;
     /* Hereda el color del texto */
-    
+
 }
 
 a {
-    text-decoration: none; /* quita el subrayado */
-    color: black; /* cambia el color a negro, pero puedes ajustarlo según tus preferencias */
+    text-decoration: none;
+    /* quita el subrayado */
+    color: black;
+    /* cambia el color a negro, pero puedes ajustarlo según tus preferencias */
 }
-  
+
 a.active {
     font-weight: bold;
     color: red;
-  }
-  
-  body {
-      margin-top: 10%;    
-      font-family: 'Open-sans', sans-serif;
-      background-color: #ffffff;
-  }
-  
-  .navbar-container {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 9999;
-      background-color: #ffffff;
-      /* Ajusta el valor de la opacidad aquí */
-  }
-  
-  .navbar {
-      max-width: 1560px;
-      padding: 20px;
-      font-size: 14px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin: auto;
-  
-  }
-  
-  .navbar-left svg {
-      width: 50px;
-      margin-right: 20px;
-  }
-  
-  .navbar-left div {
-      text-transform: uppercase;
-      font-weight: 600;
-  }
-  
-  .navbar-left div a {
-      text-decoration: none;
-      /* Elimina el subrayado */
-      color: inherit;
-      /* Hereda el color del texto */
-  }
-  
-  
-  .navbar-left div:hover,
-  .find-a-store:hover {
-      color: rgb(202, 35, 35);
-  }
-  
-  .navbar-left,
-  .navbar-right {
-      display: flex;
-      align-items: center;
-  
-  }
-  
-  .navbar-left>*,
-  .navbar-right>* {
-      margin: 10px;
-  }
-  
-  .find-a-store {
-      display: flex;
-      align-items: center;
-      font-weight: 500;
-  }
-  
-  .sign-in,
-  .join-now {
-      font-weight: 500;
-      border: 1px solid black;
-      border-radius: 40px;
-      padding: 5px 20px 5px 20px;
-  }
-  
-  .join-now {
-      background-color: black;
-      color: white;
-  }
-  
-  .join-now:hover {
-      background-color: rgba(0, 0, 0, 0.7);
-  }
-  
-  .sign-in:hover {
-      background-color: rgba(0, 0, 0, 0.06);
-  }
-  
-  h1 {
-      color: rgb(202, 35, 35);
-  }
-  
-  /* Botón oscuro CS3 */
-  .dark-mode {
-      background: #242424;
-      color: rgb(255, 255, 255);
-      .navbar-container {
-          background-color: #242424
-      }
-      .texto {
-          text-align: center;
-          margin: 10px auto; /* Establece márgenes superior e inferior de 20px y márgenes izquierdo y derecho automáticos */
-          max-width: 875px; /* Establece el ancho máximo del contenedor a 600px */
-          padding: 10px; /* Agrega un relleno para mejorar la legibilidad */
-          border: 1px solid #242424 /* Agrega un borde para mayor claridad */
-      }
-      a {
-          text-decoration: none; /* quita el subrayado */
-          color: white; /* cambia el color a negro, pero puedes ajustarlo según tus preferencias */
-      }
-        
-  }
-  
-  
-  .saludar {
-      display: flex;
-      align-items: center;
-  }
-  
-  
-  .saludar img {
-      width: 200px;
-      margin: 0 auto;
-      /* Centra la imagen horizontalmente */
-  }
-  
-  .saludar p {
-      font-weight: 400;
-  }
-  
-  .bocadillo {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 10px;
-      border-radius: 5px;
-      margin: 0 auto;
-      width: 100px;
-      text-align: center;
-      margin-left: 35%;
-      margin-top: 10%;
-  }
-  
-  
-  /* Galería de imagenes */
-  .mySlides {
-      display: none;
-      /* Oculta todas las imágenes por defecto */
-  }
-  
-  /* Agrega estilos para el slider */
-  .slider {
-      position: relative;
-      width: 100%;
-      height: 100%;
-  }
-  
-  .slider img {
-      width: 100%;
-      height: auto;
-  }
-  
-  /* Agrega estilos para los controles del slider si es necesario */
-  .slider .prev,
-  .slider .next {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 50px;
-      height: 50px;
-      background-color: rgba(0, 0, 0, 0.5);
-      color: white;
-      font-size: 24px;
-      text-align: center;
-      line-height: 50px;
-      cursor: pointer;
-  }
-  
-  .slider .prev {
-      left: 10px;
-  }
-  
-  .slider .next {
-      right: 10px;
-  }
-  
-  .section_slider {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding-bottom: 20px;
-  
-  }
-  
-  
-  .c {
-      min-width: 700px;
-      width: 900px;
-      height: 700px;
-      padding: 10px;
-      padding-bottom: 40px;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-      position: relative;
-      overflow: hidden;
-      background: hsl(0 0% 90%);
-      box-sizing: border-box;
-  }
-  
-  .ci {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: inherit;
-      height: inherit;
-      transform-origin: left 50%;
-  
-      background: inherit;
-  
-      z-index: var(--z);
-      transition: .3s ease-out;
-  }
-  
-  .ci img {
-      -moz-user-select: none;
-      user-select: none;
-  }
-  
-  .ch {
-      position: absolute;
-      top: 50%;
-      left: 4%;
-      transform: translateY(-900%);
-      font-size: 2rem;
-  
-  }
-  
-  input {
-      position: absolute;
-      left: 0;
-      top: 0;
-      opacity: 0;
-      z-index: -10;
-  }
-  
-  label {
-      width: 10%;
-      height: 10px;
-      margin-right: 4px;
-      border-radius: 20px;
-  
-      background: hsla(0 0% 90% / .3);
-      cursor: pointer;
-  
-      position: relative;
-      z-index: 10;
-  }
-  
-  label:last-child {
-      margin-right: 0;
-  }
-  
-  input:checked+label {
-      background: linear-gradient(to right,
-              hsla(var(--hue) 72% 42% / 1),
-              hsla(calc(var(--hue) + 15) 72% 42% / 1));
-  }
-  
-  input:not(:checked)+label+.ci {
-      transform: translateX(-100%);
-      opacity: 0;
-  }
-  
-  input:checked+label+.ci~.ci {
-      transform: translateX(100%);
-  }
-  
-  input:not(:checked)+label+.ci {
-      transition: 0;
-  }
-  
-  .image_slider {
-      width: auto;
-      height: 700px;
-  }
-  
-  section {
-      display: auto;
-      justify-content: center;
-      flex-wrap: wrap;
-  }
-  
-  article {
-      background-color: #EFEFEF;
-      border: black 1px solid;
-  }
-  
-  article p {
-      text-align: center;
-  }
-  
-  img.servicios{
+}
+
+a.active:visited {
+    color: red;
+}
+
+a.active:hover {
+    color: red;
+}
+
+a.active:focus {
+    color: red;
+}
+
+.navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: #ffffff;
+    /* Ajusta el valor de la opacidad aquí */
+}
+
+.navbar {
+    max-width: 1560px;
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+}
+
+.navbar-left svg {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.navbar-left div {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-left div a {
+    text-decoration: none;
+    /* Elimina el subrayado */
+    color: inherit;
+    /* Hereda el color del texto */
+}
+
+.navbar-left div:hover,
+.find-a-store:hover {
+    color: rgb(202, 35, 35);
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar-left>*,
+.navbar-right>* {
+    margin: 10px;
+}
+
+.find-a-store {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.sign-in,
+.join-now {
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+}
+
+.join-now {
+    background-color: black;
+    color: white;
+}
+
+.join-now:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sign-in:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+h1 {
+    color: rgb(202, 35, 35);
+}
+
+/* Botón oscuro CS3 */
+.dark-mode {
+    background: #242424;
+    color: rgb(255, 255, 255);
+    .navbar-container {
+        background-color: #242424
+    }
+    .texto {
+        text-align: center;
+        margin: 10px auto;
+        /* Establece márgenes superior e inferior de 20px y márgenes izquierdo y derecho automáticos */
+        max-width: 875px;
+        /* Establece el ancho máximo del contenedor a 600px */
+        padding: 10px;
+        /* Agrega un relleno para mejorar la legibilidad */
+        border: 1px solid #242424
+            /* Agrega un borde para mayor claridad */
+    }
+
+    a {
+        text-decoration: none;
+        /* quita el subrayado */
+        color: white;
+        /* cambia el color a negro, pero puedes ajustarlo según tus preferencias */
+    }
+}
+
+.saludar {
+    display: flex;
+    align-items: center;
+}
+
+.saludar img {
+    width: 200px;
+    margin: 0 auto;
+    /* Centra la imagen horizontalmente */
+}
+
+.saludar p {
+    font-weight: 400;
+}
+
+.bocadillo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 100px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+/* Galería de imagenes */
+.mySlides {
+    display: none;
+    /* Oculta todas las imágenes por defecto */
+}
+
+/* Agrega estilos para el slider */
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+/* Agrega estilos para los controles del slider si es necesario */
+.slider .prev,
+.slider .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.slider .prev {
+    left: 10px;
+}
+
+.slider .next {
+    right: 10px;
+}
+
+.section_slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+.c {
+    min-width: 700px;
+    width: 900px;
+    height: 700px;
+    padding: 10px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background: hsl(0 0% 90%);
+    box-sizing: border-box;
+}
+
+.ci {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    transform-origin: left 50%;
+
+    background: inherit;
+
+    z-index: var(--z);
+    transition: .3s ease-out;
+}
+
+.ci img {
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.ch {
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    transform: translateY(-900%);
+    font-size: 2rem;
+
+}
+
+input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    z-index: -10;
+}
+
+label {
+    width: 10%;
+    height: 10px;
+    margin-right: 4px;
+    border-radius: 20px;
+
+    background: hsla(0 0% 90% / .3);
+    cursor: pointer;
+
+    position: relative;
+    z-index: 10;
+}
+
+label:last-child {
+    margin-right: 0;
+}
+
+input:checked+label {
+    background: linear-gradient(to right,
+            hsla(var(--hue) 72% 42% / 1),
+            hsla(calc(var(--hue) + 15) 72% 42% / 1));
+}
+
+input:not(:checked)+label+.ci {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+input:checked+label+.ci~.ci {
+    transform: translateX(100%);
+}
+
+input:not(:checked)+label+.ci {
+    transition: 0;
+}
+
+.image_slider {
+    width: auto;
+    height: 700px;
+}
+
+section {
+    display: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article {
+    background-color: #EFEFEF;
+    border: black 1px solid;
+}
+
+article p {
+    text-align: center;
+}
+
+img.servicios {
     width: 100%;
     height: auto;
     justify-content: center;
@@ -347,9 +359,9 @@ a.active {
     max-width: 900px;
     min-width: 300px;
     margin: auto;
-  }
+}
 
-  body {
+body {
     margin: 0;
     overflow-x: hidden;
 }
@@ -361,7 +373,7 @@ a.active {
 }
 
 .footer .row {
-    
+
     width: 100%;
     margin: 1% 0%;
     padding: 0.6% 0%;
@@ -376,4 +388,25 @@ a.active {
 .footer .Logo {
     align-items: flex-start;
     justify-content: flex-start;
+}
+
+.tabla {
+    border: 1px solid #242424;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 503px;
+}
+
+.tabla td {
+    padding: 4px;
+}
+
+.estrellas {
+    margin-left: 30%;
+}
+
+.antes{
+    margin-left: 10%;
 }
