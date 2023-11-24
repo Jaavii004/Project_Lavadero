@@ -1,4 +1,11 @@
-*{margin:0;padding:0;box-sizing:border-box;font-size:0;}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size:0;
+    margin-left: 5%;
+}
+
 nav li{
     float:left;
     width:10%;
@@ -7,14 +14,14 @@ nav li{
     border:1px solid #000000;
     text-align:center;
     color:#fff;
-    
-    }
-            
+}
+
 nav a{
     text-decoration:none;
     color:inherit;
     font-size:14px;
-    } 
+}
+
 nav li{
     display:inline-block;
     width:10%;
@@ -23,9 +30,21 @@ nav li{
     border:1px solid #b91e1e;
     text-align:center;
     color:#fff;
-    
 }
+
 nav li:hover{
     background-color:#fff;
     color:#000;    
 }
+
+.h2{
+    margin-top: 50%;
+    color: #000000;
+}
+
+img {
+    margin-top: 10%;
+    margin-left: 35%;
+}
+
+
