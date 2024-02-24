@@ -404,11 +404,18 @@ body {
 
 .tabla {
     border: 1px solid #242424;
-    width: 900px;
+    width: 52%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 350px;
+    margin-left: 24%;
+}
+@media screen and (max-width: 600px) {
+  .tabla {
+    width: 100%;
+    margin-left: 0;
+  }
+    
 }
 
 .tabla td {
