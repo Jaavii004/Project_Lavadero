@@ -14,6 +14,7 @@ nav li {
     border: 1px solid #000000;
     text-align: center;
     color: #fff;
+    margin-bottom: 10%;
 }
 
 nav a {
@@ -52,7 +53,7 @@ img {
         width: 80%;
         border-collapse: collapse;
         font-size: 12px;
-        margin: 10px auto;
+        margin-right: 15%;
     }
 
     table,
@@ -82,4 +83,5 @@ img {
     .cerrado {
         background-color: lightgray;
     }
+
 }
