@@ -9,42 +9,34 @@
     <title>Administración</title>
     <style>
         .container {
-            max-width: 800px;
+            max-width: 900px; /* Ajustar el ancho máximo */
             margin: 20px auto;
             padding: 20px;
             background-color: #fff;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Centrar el contenido */
         }
 
-        .container {
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
 
-            .table {
-                width: 100%;
-                border-collapse: collapse;
-                margin-bottom: 20px;
-            }
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+            text-align: center; /* Centrar el contenido */
+        }
 
-            table,
-            th,
-            td {
-                border: 1px solid #ddd;
-            }
+        th {
+            background-color: #f2f2f2;
+        }
 
-            th,
-            td {
-                padding: 10px;
-                text-align: center;
-            }
-
-            th {
-                background-color: #f2f2f2;
-            }
-
-            tr:nth-child(even) {
-                background-color: #f9f9f9;
-            }
-
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
         }
     </style>
 </head>
@@ -61,8 +53,8 @@
     </nav>
 
     <div class="container">
-        <h2 style="text-align: center;">Lavadero Artesanal Lujo - Diciembre de 2023</h2>
-        <table>
+        <h2>Lavadero Artesanal Lujo - Diciembre de 2023</h2>
+        <table class="table">
             <tr>
                 <th>Concepto</th>
                 <th>Ingresos (€)</th>
