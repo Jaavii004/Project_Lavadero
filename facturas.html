@@ -1,22 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/inicio.css">
     <link rel="icon" href="./img/LogoLavadero.png" type="image/x-icon">
     <title>Administración</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
 </head>
+
 <body>
     <nav>
         <ul>
-           <li><a href="./index.html">Inicio</a></li>
-           <li><a href="./pedidos.html">Pedidos</a></li>
-           <li><a href="./proveedores.html">Proveedores</a></li>
-           <li><a href="./facturas.html">Facturas</a></li>
-           <li><a href="./contacta.html">Contacto</a></li>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./pedidos.html">Pedidos</a></li>
+            <li><a href="./proveedores.html">Proveedores</a></li>
+            <li><a href="./facturas.html">Facturas</a></li>
+            <li><a href="./contacta.html">Contacto</a></li>
         </ul>
-     </nav>
+    </nav>
+
+    <div class="container">
+        <h2 style="text-align: center;">Lavadero Artesanal Lujo - Diciembre de 2023</h2>
+        <table>
+            <tr>
+                <th>Concepto</th>
+                <th>Ingresos (€)</th>
+                <th>Gastos (€)</th>
+            </tr>
+            <tr>
+                <td>Ingresos por Servicios</td>
+                <td>5367,88</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Materiales</td>
+                <td></td>
+                <td>1050,25</td>
+            </tr>
+            <tr>
+                <td>Alquiler del local</td>
+                <td></td>
+                <td>612,70</td>
+            </tr>
+            <tr>
+                <td>Mantenimiento</td>
+                <td></td>
+                <td>432,99</td>
+            </tr>
+            <tr>
+                <td>Electricidad y agua</td>
+                <td></td>
+                <td>178,50</td>
+            </tr>
+            <tr>
+                <td>Otros gastos</td>
+                <td></td>
+                <td>379,60</td>
+            </tr>
+            <tr>
+                <td><strong>Total Ingresos</strong></td>
+                <td><strong>5367,88</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Total Gastos</strong></td>
+                <td></td>
+                <td><strong>2654,04</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Beneficio Neto</strong></td>
+                <td><strong>2713,84</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Total Gastos sin IVA</strong></td>
+                <td></td>
+                <td><strong>2192,60</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Total Gastos con IVA (21%)</strong></td>
+                <td></td>
+                <td><strong>2654,04</strong></td>
+            </tr>
+        </table>
+    </div>
     <img src="./img/factura.png" alt="delivery" width="20%" height="20%">
 </body>
+
 </html>
