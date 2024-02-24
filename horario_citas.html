@@ -2,219 +2,219 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Horario de Citas</title>
-  <style>
-    .citas {
-      table {
-        width: 80%;
-        border-collapse: collapse;
-        font-size: 12px;
-        margin: 10px auto;
-      }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario de Citas</title>
+    <style>
+        .citas {
+            table {
+                width: 80%;
+                border-collapse: collapse;
+                font-size: 12px;
+                margin: 10px auto;
+            }
 
-      table,
-      th,
-      td {
-        border: 1px solid black;
-      }
+            table,
+            th,
+            td {
+                border: 1px solid black;
+            }
 
-      th,
-      td {
-        padding: 6px;
-        text-align: center;
-      }
+            th,
+            td {
+                padding: 6px;
+                text-align: center;
+            }
 
-      th {
-        background-color: lightgray;
-      }
+            th {
+                background-color: lightgray;
+            }
 
-      .cogida {
-        background-color: lightgreen;
-      }
+            .cogida {
+                background-color: lightgreen;
+            }
 
-      .ocupada {
-        background-color: lightcoral;
-      }
+            .ocupada {
+                background-color: lightcoral;
+            }
 
-      .cerrado {
-        background-color: lightgray;
-      }
-    }
-  </style>
+            .cerrado {
+                background-color: lightgray;
+            }
+        }
+    </style>
 </head>
 
 <body>
-  <div class="citas">
-    <table>
-      <tr>
-        <th>Horario</th>
-        <th>Lunes</th>
-        <th>Martes</th>
-        <th>Miércoles</th>
-        <th>Jueves</th>
-        <th>Viernes</th>
-        <th>Sábado</th>
-      </tr>
-      <tr>
-        <td>08:30</td>
-        <td class="ocupada">1234 ABC</td>
-        <td class="ocupada">5678 DEF</td>
-        <td class="ocupada">9012 GHI</td>
-        <td class="ocupada">3456 JKL</td>
-        <td class="ocupada">7890 MNO</td>
-        <td class="ocupada">1234 PQR</td>
-      </tr>
-      <tr>
-        <td>09:00</td>
-        <td class="ocupada">5678 STU</td>
-        <td class="ocupada">9012 VWX</td>
-        <td class="cogida">Disponible</td>
-        <td class="ocupada">7890 BCD</td>
-        <td class="ocupada">1234 EFG</td>
-        <td class="cogida">Disponible</td>
-      </tr>
-      <tr>
-        <td>09:30</td>
-        <td class="ocupada">9012 HIJ</td>
-        <td class="ocupada">3456 KLM</td>
-        <td class="cogida">Disponible</td>
-        <td class="ocupada">1234 QRS</td>
-        <td class="ocupada">5678 TUV</td>
-        <td class="cogida">Disponible</td>
-      </tr>
-      <tr>
-        <td>10:00</td>
-        <td class="ocupada">3456 WXY</td>
-        <td class="ocupada">7890 ZAB</td>
-        <td class="cogida">Disponible</td>
-        <td class="ocupada">5678 EFG</td>
-        <td class="ocupada">9012 HIJ</td>
-        <td class="cogida">Disponible</td>
-      </tr>
-      <tr>
-        <td>10:30</td>
-        <td class="cogida">Disponible</td>
-        <td class="ocupada">1234 NOP</td>
-        <td class="ocupada">5678 QRS</td>
-        <td class="ocupada">9012 TUV</td>
-        <td class="ocupada">3456 WXY</td>
-        <td class="cogida">Disponible</td>
-      </tr>
-      <tr>
-        <td>11:00</td>
-        <td class="cogida">Disponible</td>
-        <td class="ocupada">5678 BCD</td>
-        <td class="ocupada">9012 EFG</td>
-        <td class="ocupada">3456 HIJ</td>
-        <td class="ocupada">7890 KLM</td>
-        <td class="cogida">Disponible</td>
-      </tr>
-      <tr>
-        <td>11:30</td>
-        <td class="ocupada">5678 NOP</td>
-        <td class="cogida">Disponible</td>
-        <td class="ocupada">3456 TUV</td>
-        <td class="ocupada">7890 WXY</td>
-        <td class="ocupada">1234 ZAB</td>
-        <td class="ocupada">9102 NAP</td>
-      </tr>
-      <tr>
-        <td>12:00</td>
-        <td class="ocupada">9012 BCD</td>
-        <td class="ocupada">3456 EFG</td>
-        <td class="ocupada">7890 HIJ</td>
-        <td class="cogida">Disponible</td>
-        <td class="ocupada">5678 NOP</td>
-        <td class="cogida">Disponible</td>
-      </tr>
-      <tr>
-        <td>12:30</td>
-        <td class="cogida">Disponible</td>
-        <td class="ocupada">7890 TUV</td>
-        <td class="ocupada">1234 WXY</td>
-        <td class="ocupada">5678 ZAB</td>
-        <td class="ocupada">9012 BCD</td>
-        <td class="ocupada">5816 EEG</td>
-      </tr>
-      <tr>
-        <td>13:00</td>
-        <td class="ocupada">7890 EFG</td>
-        <td class="ocupada">1234 HIJ</td>
-        <td class="cogida">Disponible</td>
-        <td class="ocupada">9012 NOP</td>
-        <td class="ocupada">3456 QRS</td>
-        <td class="cogida">Disponible</td>
-      </tr>
-      <tr>
-        <td>13:30</td>
-        <td class="ocupada">1234 TUV</td>
-        <td class="ocupada">5678 WXY</td>
-        <td class="ocupada">9012 ZAB</td>
-        <td class="ocupada">3456 BCD</td>
-        <td class="cogida">Disponible</td>
-        <td class="ocupada">8975 BBB</td>
-      </tr>
-      <tr>
-        <td>16:00</td>
-        <td class="ocupada">7890 ABC</td>
-        <td class="ocupada">1234 DEF</td>
-        <td class="cogida">Disponible</td>
-        <td class="ocupada">9012 JKL</td>
-        <td class="ocupada">3456 MNO</td>
-        <td rowspan="8" class="cerrado">CERRADO</td>
-      </tr>
-      <tr>
-        <td>16:30</td>
-        <td class="ocupada">9012 STU</td>
-        <td class="ocupada">3456 VWX</td>
-        <td class="cogida">Disponible</td>
-        <td class="ocupada">1234 BCD</td>
-        <td class="ocupada">5678 EFG</td>
-      </tr>
-      <tr>
-        <td>17:00</td>
-        <td class="cogida">Disponible</td>
-        <td class="ocupada">5678 KLM</td>
-        <td class="ocupada">9012 NOP</td>
-        <td class="ocupada">3456 QRS</td>
-        <td class="ocupada">7890 TUV</td>
-      </tr>
-      <tr>
-        <td>17:30</td>
-        <td class="ocupada">3456 WXY</td>
-        <td class="ocupada">7890 ZAB</td>
-        <td class="ocupada">1234 BCD</td>
-        <td class="cogida">Disponible</td>
-        <td class="ocupada">9012 HIJ</td>
-      </tr>
-      <tr>
-        <td>18:00</td>
-        <td class="ocupada">5678 KLM</td>
-        <td class="ocupada">9012 NOP</td>
-        <td class="ocupada">3456 QRS</td>
-        <td class="cogida">Disponible</td>
-        <td class="ocupada">1234 WXY</td>
-      </tr>
-      <tr>
-        <td>18:30</td>
-        <td class="ocupada">7890 ZAB</td>
-        <td class="ocupada">1234 BCD</td>
-        <td class="ocupada">5678 EFG</td>
-        <td class="cogida">Disponible</td>
-        <td class="ocupada">3456 KLM</td>
-      </tr>
-      <tr>
-        <td>19:00</td>
-        <td class="ocupada">9012 NOP</td>
-        <td class="cogida">Disponible</td>
-        <td class="ocupada">7890 TUV</td>
-        <td class="ocupada">1234 WXY</td>
-        <td class="ocupada">5678 ZAB</td>
-      </tr>
-    </table>
-  </div>
+    <div class="citas">
+        <table>
+            <tr>
+                <th>Horario</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sábado</th>
+            </tr>
+            <tr>
+                <td>08:30</td>
+                <td class="ocupada">1234 ABC</td>
+                <td class="ocupada">5678 DEF</td>
+                <td class="ocupada">9012 GHI</td>
+                <td class="ocupada">3456 JKL</td>
+                <td class="ocupada">7890 MNO</td>
+                <td class="ocupada">1234 PQR</td>
+            </tr>
+            <tr>
+                <td>09:00</td>
+                <td class="ocupada">5678 STU</td>
+                <td class="ocupada">9012 VWX</td>
+                <td class="cogida">Disponible</td>
+                <td class="ocupada">7890 BCD</td>
+                <td class="ocupada">1234 EFG</td>
+                <td class="cogida">Disponible</td>
+            </tr>
+            <tr>
+                <td>09:30</td>
+                <td class="ocupada">9012 HIJ</td>
+                <td class="ocupada">3456 KLM</td>
+                <td class="cogida">Disponible</td>
+                <td class="ocupada">1234 QRS</td>
+                <td class="ocupada">5678 TUV</td>
+                <td class="cogida">Disponible</td>
+            </tr>
+            <tr>
+                <td>10:00</td>
+                <td class="ocupada">3456 WXY</td>
+                <td class="ocupada">7890 ZAB</td>
+                <td class="cogida">Disponible</td>
+                <td class="ocupada">5678 EFG</td>
+                <td class="ocupada">9012 HIJ</td>
+                <td class="cogida">Disponible</td>
+            </tr>
+            <tr>
+                <td>10:30</td>
+                <td class="cogida">Disponible</td>
+                <td class="ocupada">1234 NOP</td>
+                <td class="ocupada">5678 QRS</td>
+                <td class="ocupada">9012 TUV</td>
+                <td class="ocupada">3456 WXY</td>
+                <td class="cogida">Disponible</td>
+            </tr>
+            <tr>
+                <td>11:00</td>
+                <td class="cogida">Disponible</td>
+                <td class="ocupada">5678 BCD</td>
+                <td class="ocupada">9012 EFG</td>
+                <td class="ocupada">3456 HIJ</td>
+                <td class="ocupada">7890 KLM</td>
+                <td class="cogida">Disponible</td>
+            </tr>
+            <tr>
+                <td>11:30</td>
+                <td class="ocupada">5678 NOP</td>
+                <td class="cogida">Disponible</td>
+                <td class="ocupada">3456 TUV</td>
+                <td class="ocupada">7890 WXY</td>
+                <td class="ocupada">1234 ZAB</td>
+                <td class="ocupada">9102 NAP</td>
+            </tr>
+            <tr>
+                <td>12:00</td>
+                <td class="ocupada">9012 BCD</td>
+                <td class="ocupada">3456 EFG</td>
+                <td class="ocupada">7890 HIJ</td>
+                <td class="cogida">Disponible</td>
+                <td class="ocupada">5678 NOP</td>
+                <td class="cogida">Disponible</td>
+            </tr>
+            <tr>
+                <td>12:30</td>
+                <td class="cogida">Disponible</td>
+                <td class="ocupada">7890 TUV</td>
+                <td class="ocupada">1234 WXY</td>
+                <td class="ocupada">5678 ZAB</td>
+                <td class="ocupada">9012 BCD</td>
+                <td class="ocupada">5816 EEG</td>
+            </tr>
+            <tr>
+                <td>13:00</td>
+                <td class="ocupada">7890 EFG</td>
+                <td class="ocupada">1234 HIJ</td>
+                <td class="cogida">Disponible</td>
+                <td class="ocupada">9012 NOP</td>
+                <td class="ocupada">3456 QRS</td>
+                <td class="cogida">Disponible</td>
+            </tr>
+            <tr>
+                <td>13:30</td>
+                <td class="ocupada">1234 TUV</td>
+                <td class="ocupada">5678 WXY</td>
+                <td class="ocupada">9012 ZAB</td>
+                <td class="ocupada">3456 BCD</td>
+                <td class="cogida">Disponible</td>
+                <td class="ocupada">8975 BBB</td>
+            </tr>
+            <tr>
+                <td>16:00</td>
+                <td class="ocupada">7890 ABC</td>
+                <td class="ocupada">1234 DEF</td>
+                <td class="cogida">Disponible</td>
+                <td class="ocupada">9012 JKL</td>
+                <td class="ocupada">3456 MNO</td>
+                <td rowspan="8" class="cerrado">CERRADO</td>
+            </tr>
+            <tr>
+                <td>16:30</td>
+                <td class="ocupada">9012 STU</td>
+                <td class="ocupada">3456 VWX</td>
+                <td class="cogida">Disponible</td>
+                <td class="ocupada">1234 BCD</td>
+                <td class="ocupada">5678 EFG</td>
+            </tr>
+            <tr>
+                <td>17:00</td>
+                <td class="cogida">Disponible</td>
+                <td class="ocupada">5678 KLM</td>
+                <td class="ocupada">9012 NOP</td>
+                <td class="ocupada">3456 QRS</td>
+                <td class="ocupada">7890 TUV</td>
+            </tr>
+            <tr>
+                <td>17:30</td>
+                <td class="ocupada">3456 WXY</td>
+                <td class="ocupada">7890 ZAB</td>
+                <td class="ocupada">1234 BCD</td>
+                <td class="cogida">Disponible</td>
+                <td class="ocupada">9012 HIJ</td>
+            </tr>
+            <tr>
+                <td>18:00</td>
+                <td class="ocupada">5678 KLM</td>
+                <td class="ocupada">9012 NOP</td>
+                <td class="ocupada">3456 QRS</td>
+                <td class="cogida">Disponible</td>
+                <td class="ocupada">1234 WXY</td>
+            </tr>
+            <tr>
+                <td>18:30</td>
+                <td class="ocupada">7890 ZAB</td>
+                <td class="ocupada">1234 BCD</td>
+                <td class="ocupada">5678 EFG</td>
+                <td class="cogida">Disponible</td>
+                <td class="ocupada">3456 KLM</td>
+            </tr>
+            <tr>
+                <td>19:00</td>
+                <td class="ocupada">9012 NOP</td>
+                <td class="cogida">Disponible</td>
+                <td class="ocupada">7890 TUV</td>
+                <td class="ocupada">1234 WXY</td>
+                <td class="ocupada">5678 ZAB</td>
+            </tr>
+        </table>
+    </div>
 
 </body>
 
