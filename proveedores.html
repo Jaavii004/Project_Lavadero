@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +8,80 @@
     <link rel="stylesheet" href="./css/inicio.css">
     <link rel="icon" href="./img/LogoLavadero.png" type="image/x-icon">
     <title>Administración</title>
+    <style>
+        .body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 40px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #fff;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        strong {
+            color: #4285f4;
+        }
+
+    </style>
 </head>
 <body>
     <nav>
         <ul>
-           <li><a href="./index.html">Inicio</a></li>
-           <li><a href="./pedidos.html">Pedidos</a></li>
-           <li><a href="./proveedores.html">Proveedores</a></li>
-           <li><a href="./facturas.html">Facturas</a></li>
-           <li><a href="./contacta.html">Contacto</a></li>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./pedidos.html">Pedidos</a></li>
+            <li><a href="./proveedores.html">Proveedores</a></li>
+            <li><a href="./facturas.html">Facturas</a></li>
+            <li><a href="./contacta.html">Contacto</a></li>
         </ul>
-     </nav>
-    <img src="./img/Camion.png" alt="camion" width="20%" height="20%"> 
+    </nav>
+    <div class="lista">
+        <br>
+        <h1>Proveedores de Lavaderos y Productos</h1>
+        <ul>
+            <li>
+                <strong>Istobal</strong>
+                <ul>
+                    <li>Aspirador de polvo</li>
+                    <li>Pulvorizador</li>
+                    <li>Lava-alfombrilla</li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <strong>Limpiarcoche</strong>
+                <ul>
+                    <li>Champú carroceria</li>
+                    <li>Limpiador bicomponente</li>
+                    <li>Limpiador deconaminante férrico</li>
+                    <li>Limpiador deconaminante férrico</li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <strong>Proveedores</strong>
+                <ul>
+                    <li>Cera líquida</li>
+                    <li>Champú espeso</li>
+                    <li>Espatula secado de coches</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <img src="./img/Camion.png" alt="camion" width="20%" height="20%">
 </body>
 </html>
