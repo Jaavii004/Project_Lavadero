@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla HTML</title>
+    <style>
+        /* Estilos para la tabla */
+        table {
+            width: 50%;
+            /* Ancho de la tabla */
+            border-collapse: collapse;
+            /* Colapso de bordes */
+            margin-bottom: 20px;
+            /* Margen inferior */
+        }
+
+        th,
+        td {
+            border: 1px solid #dddddd;
+            /* Borde de las celdas */
+            text-align: left;
+            /* Alineación del texto */
+            padding: 8px;
+            /* Espaciado interno */
+        }
+
+        th {
+            background-color: #f2f2f2;
+            /* Color de fondo para las celdas de encabezado */
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Tabla HTML</h2>
+
+    <!-- Definición de la tabla -->
+    <table>
+        <!-- Fila de encabezado -->
+        <tr>
+            <th>Nombre</th> <!-- Celda de encabezado -->
+            <th>Edad</th> <!-- Celda de encabezado -->
+        </tr>
+        <!-- Filas de datos -->
+        <tr>
+            <td>Juan</td> <!-- Celda de datos -->
+            <td>25</td> <!-- Celda de datos -->
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>28</td>
+        </tr>
+    </table>
+
+    <!-- Explicación de la tabla -->
+    <h3>Explicación:</h3>
+    <p>Una tabla en HTML se define utilizando la etiqueta <code>&lt;table&gt;</code>. Dentro de esta etiqueta, definimos
+        filas de la tabla utilizando la etiqueta <code>&lt;tr&gt;</code> (table row).</p>
+    <p>Cada fila se divide en celdas utilizando la etiqueta <code>&lt;td&gt;</code> (table data/cell) para datos
+        regulares y <code>&lt;th&gt;</code> (table header) para celdas de encabezado.</p>
+    <p>Los encabezados de la tabla se suelen resaltar visualmente y se definen en la primera fila utilizando
+        <code>&lt;th&gt;</code>.</p>
+    <p>Los estilos para la tabla y las celdas se pueden aplicar usando CSS.</p>
+
+</body>
+
+</html>
