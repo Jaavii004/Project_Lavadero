@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -7,6 +7,44 @@
     <link rel="stylesheet" href="./css/facturas.css">
     <link rel="icon" href="./img/LogoLavadero.png" type="image/x-icon">
     <title>Administración</title>
+    <style>
+        .titulo {
+            text-align: center;
+        }
+
+        .table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            font-size: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 3%;
+            overflow: hidden;
+        }
+
+        .table th,
+        .table td {
+            padding: 6px;
+            text-align: center;
+            /*border: 1px solid black;*/
+        }
+
+        .table th {
+            background-color: lightgray;
+        }
+
+        .cogida {
+            background-color: lightgreen;
+        }
+
+        .ocupada {
+            background-color: lightcoral;
+        }
+
+        .cerrado {
+            background-color: lightgray;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,7 +58,8 @@
         </ul>
     </nav>
     <br><br><br><br>
-        <h2 class="titulo">Lavadero Artesanal Lujo - Diciembre de 2023</h2>
+    <h2 class="titulo">Lavadero Artesanal Lujo - Diciembre de 2023</h2>
+    <div class="citas">
         <table class="table">
             <tr>
                 <th>Concepto</th>
@@ -86,4 +125,8 @@
     </div>
 </body>
 
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 6e911722c53d2ce7a5b6d036deda2cd7b9aa01a4
