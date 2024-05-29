@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/inicio.css">
+    <link rel="stylesheet" href="./css/contacta.css">
     <link rel="icon" href="./img/LogoLavadero.png" type="image/x-icon">
     <title>Administración</title>
 </head>
@@ -16,7 +16,33 @@
            <li><a href="./facturas.html">Facturas</a></li>
            <li><a href="./contacta.html">Contacto</a></li>
         </ul>
-     </nav>
-    <img src="./img/dudas.png" alt="delivery" width="10%" height="10%">
+    </nav>
+
+    <div class="login-container">
+        <h1>Inicio de Sesión</h1>
+        <form action="/login" method="POST">
+            <label for="username">Nombre de Usuario</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Confirmar Contraseña</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+            
+            <button type="submit">Iniciar Sesión</button>
+            <button type="button" onclick="register()">Registrarse</button>
+        </form>
+    </div>
+
+    <script>
+        function register() {
+            alert('Función de registro no implementada.');
+        }
+    </script>
+
 </body>
 </html>

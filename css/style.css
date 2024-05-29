@@ -9,6 +9,25 @@ a.active {
       background-color: #ffffff;
   }
 
+  video {
+   
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+
+  position: fixed;    
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+      
+  z-index: -100;
+    
+  background-size: cover;
+
+  opacity: 0.30; /*Transparencia; 1 es sin transparencia y 0 totalmente transparente*/
+}
+
 h1 {
     text-align: center;
 }
@@ -381,16 +400,22 @@ article p {
     text-align: center;
 }
 
-img.servicios {
-    width: 100%;
+.servicios {
+    max-width: 100%;
     height: auto;
-    justify-content: center;
+    display: block;
+    margin: 0 auto;
+    /* Añadir las siguientes líneas */
+    width: 100%;
+    height: 300px; /* Cambia este valor según lo necesites */
+    object-fit: cover;
 }
 
 .contenedores {
-    max-width: 900px;
-    min-width: 300px;
-    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 20px;
 }
 
 body {
@@ -447,7 +472,7 @@ body {
 }
 
 .antes{
-    margin-left: 10%;
+    margin-left: 6%;
 }
 
 .map-container {

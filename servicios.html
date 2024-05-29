@@ -9,7 +9,29 @@
     <link rel="icon" href="./img/LogoLavadero.png" type="image/x-icon">
     <script src="./js/index.js"></script>
     <style>
-        
+        .search-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 100%;
+        }
+
+
+        .search-form button {
+            padding: 10px 20px;
+            margin-left: 10px;
+            background-color: #ca1e00;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .search-form button:hover {
+            background-color: #751700;
+        }
+
     </style>
 </head>
 <body>
@@ -69,25 +91,37 @@
 
     <br><br><br><br><br><br><br><br><br><br><br><br>
     <div class="contenedores">
-        <section>
-            <!-- PON AQUI ALGO PARA BUSCAR NO APARECE EL INPUT-->
-            <form class="search-form" action="#" method="GET">
+        <section class="search-form">
+            <form action="buscar.php" method="post">
                 <input type="text" name="search" placeholder="Buscar...">
                 <button type="submit">Buscar</button>
-            </form>
+                </form>
         </section>
         <br>
         <section>
             <article>
-                <img class="servicios" src="./img/Antes.jpg"/>
-                <p>Lavado exterior 20€</p>            
+                <img class="servicios" src="./img/Antes.jpg" alt="Lavado exterior">
+                <p>Lavado exterior <br><strong>20€</strong></p>
             </article>
         </section>
-        <br>
         <section>
             <article>
-                <img class="servicios" src="./img/limpieza-inteior.jpg"/>
-                <p>Lavado de interior 30€</p>            
+                <img class="servicios" src="./img/limpieza-inteior.jpg" alt="Lavado de interior">
+                <p>Lavado de interior <strong><br>30€</strong></p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <!-- Nuevo servicio -->
+                <img class="servicios" src="./img/faros.jpg" alt="Lavado de Faros">
+                <p>Lavado de Faro <br><strong>5€</strong></p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <!-- Nuevo servicio -->
+                <img class="servicios" src="./img/luna.avif" alt="Lavado luna delantera y trasera">
+                <p>Lavado luna delantera y trasera <br><strong>40€</strong></p>
             </article>
         </section>
     </div>
